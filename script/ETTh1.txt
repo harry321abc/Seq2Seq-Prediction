@@ -1,0 +1,97 @@
+##ETTh1##
+#336
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh1.csv --model_id check --model transformer --data ETTh1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh1.csv --model_id check --model informer --data ETTh1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh1.csv --model_id check --model TCN --data ETTh1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh1.csv --model_id check --model fourier_transformer --data ETTh1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh1.csv --model_id check --model fourier_informer --data ETTh1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+#720
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh1.csv --model_id check --model transformer --data ETTh1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh1.csv --model_id check --model informer --data ETTh1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh1.csv --model_id check --model TCN --data ETTh1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh1.csv --model_id check --model fourier_transformer --data ETTh1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh1.csv --model_id check --model fourier_informer --data ETTh1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+
+##ETTh2##
+#336
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh2.csv --model_id check --model transformer --data ETTh2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh2.csv --model_id check --model informer --data ETTh2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh2.csv --model_id check --model TCN --data ETTh2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh2.csv --model_id check --model fourier_transformer --data ETTh2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh2.csv --model_id check --model fourier_informer --data ETTh2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+#720
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh2.csv --model_id check --model transformer --data ETTh2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh2.csv --model_id check --model informer --data ETTh2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh2.csv --model_id check --model TCN --data ETTh2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh2.csv --model_id check --model fourier_transformer --data ETTh2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTh2.csv --model_id check --model fourier_informer --data ETTh2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
+
+
+##ETTm1##
+#336
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id check --model transformer --data ETTm1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id check --model informer --data ETTm1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id check --model TCN --data ETTm1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id check --model fourier_transformer --data ETTm1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id check --model fourier_informer --data ETTm1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+#720
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id check --model transformer --data ETTm1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id check --model informer --data ETTm1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id check --model TCN --data ETTm1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id check --model fourier_transformer --data ETTm1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id check --model fourier_informer --data ETTm1 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+##ETTm2##
+#336
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm2.csv --model_id check --model transformer --data ETTm2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm2.csv --model_id check --model informer --data ETTm2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm2.csv --model_id check --model TCN --data ETTm2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm2.csv --model_id check --model fourier_transformer --data ETTm2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm2.csv --model_id check --model fourier_informer --data ETTm2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+#720
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm2.csv --model_id check --model transformer --data ETTm2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm2.csv --model_id check --model informer --data ETTm2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm2.csv --model_id check --model TCN --data ETTm2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm2.csv --model_id check --model fourier_transformer --data ETTm2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+python  main_informer.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm2.csv --model_id check --model fourier_informer --data ETTm2 --features M --batch_size 64 --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 --freq 't'
+
+
+##sinter##
+python  main_informer_sinter.py --is_training 1 --root_path ./dataset/ --data_path sinter.csv --model_id check --model informer --data sinter --features MS --batch_size 64 --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --attn prob --des 'Exp' --itr 1 
